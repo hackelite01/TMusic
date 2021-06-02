@@ -39,7 +39,7 @@ read -p 'Do you want to add TMusic To bin (Y/N): ' ch
 if [ "$ch" = "Y" ] || [ "$ch" = "y" ] ;then
 echo 'cd' $PWD '&& python2 music.py' >$PREFIX/bin/tmusic
 echo 'exit' >$PREFIX/bin/tmusic
-chmod +x $PREFIX/bin/ymusic
+chmod +x $PREFIX/bin/tmusic
 echo 'Added tmusic to bin !!'
 echo 'Now You Can Launch TMusic just by typing \e[1;31mtmusic\e[1;33m anywhere!!!'
 read -p 'Press Enter Key To Continue..' k
@@ -91,7 +91,7 @@ echo -e "\e[1;34m Created By HackElite\e[0m"
 echo -e "\e[4;32m This Player Was Created By HackElite \e[0m"
 echo -e "\e[1;34m For Any Queries Msg Me!!!\e[0m"
 echo -e "\e[1;32m           Telegram: t.me/mayank_ka_b_for_bot \e[0m"
-echo -e "\e[1;31m       Channel: https://t.me/hsckel \e[0m"
+echo -e "\e[1;31m       Channel: https://t.me/hackelite01 \e[0m"
 echo -e "\e[1;33m   YouTube Page: https://youtube.com/channel/UCctC7DrSBTHcc8R-BrB9qRg \e[0m"
 echo " "
 exit 0
